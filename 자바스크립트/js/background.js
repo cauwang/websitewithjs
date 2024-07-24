@@ -1,0 +1,12 @@
+const images = ["0.JPG","2.JPG","3.JPG"];
+const chosenImage = images[Math.floor(Math.random() * images.length)];
+document.body.style.backgroundImage = `url('img/${chosenImage}')`;
+document.body.style.backgroundSize = "cover";
+document.body.style.backgroundPosition = "center";
+document.body.style.backgroundRepeat = "no-repeat";
+document.getElementById('clock').style.color = 'white';
+document.getElementById('greeting').style.color = 'white';
+document.getElementById('todo-form').style.color = 'white';
+document.getElementById('todo-list').style.color = 'white';
+document.getElementById('quote').style.color = 'white';
+document.getElementById('weather').style.color = 'white';
